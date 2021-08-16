@@ -29,7 +29,5 @@
 > would be really cool ... if there's time
 
 - A user can change the order of the items; given that there is a drag and slide option
-  
-- A user can change the colors of the list; given that
 
 - A user can retrieve any activity already removed; given that there is a history button which show all the elements removed  and another button to restore the selected removed activity
