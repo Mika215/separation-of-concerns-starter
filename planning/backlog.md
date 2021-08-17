@@ -13,8 +13,6 @@
 - An user can edit the description of each item in the list; given that there is an edit button
 
 - An user can mark an item as "done" or "not done", given that there is check box
-
-- An user can see how many items has the list; given that there is a number before each item 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
