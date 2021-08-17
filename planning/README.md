@@ -8,4 +8,4 @@ Based in  our user stories, we will create our strategy and then, doing reversed
 
 Here we can see some options we are considering:
 
-![option-1](https://github.com/perezrei/separation-of-concerns-starter/blob/reinaldo-readme/planning/to-do-list-1.png)
+![option-1](public/../../client/public/screenshot-www.w3schools.com-2021.08.16-17_07_05.png)
