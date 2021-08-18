@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>todo-list-G3</title>
 
     <link href="./client/styles/index.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="root"></div>
-
+    <div class="main-container">
+      <div class="title">
+        <h1><span class="styling">To DO </span>List</h1>
+      </div>
+      <div class="add-item">
+        <input type="text" id="todo-input" placeholder="enter activity ... " />
+        <button class="todo-button">+</button>
+      </div>
+      <div class="todo-container">
+        <ol id="item-list" start="1"></ol>
+      </div>
+    </div>
     <script type="module" src="./client/src/init/index.js"></script>
   </body>
 </html>
