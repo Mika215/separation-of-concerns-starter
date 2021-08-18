@@ -118,7 +118,14 @@
 
     "spellcheck/spell-checker": [
       "warn",
-      { "minLength": 4, "identifiers": false, "strings": false }
+      { 
+        "minLength": 4, 
+        "identifiers": false, 
+        "strings": false,       
+        "skipWords": [
+             "checkbox"
+         ]
+      }
     ],
 
     "folders/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-]+$", "src"],
