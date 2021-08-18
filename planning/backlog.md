@@ -4,30 +4,32 @@
 
 > these are necessary for basic usability
  
-- A user can see all the items in their list; given that there is a table of list of to do activities
+- An user can see all the items in the list; given that there is a numbered list of to do activities
 
-- A user can add a new item to their list; given there is an input form and a add button.
+- An user can add a new item to the list; given that there is an input form and a add button.
 
-- A user can remove any item from their list, given that theres is a remove button
+- An user can remove any item from the list, given that there is a remove button
 
-- A user can edit the description of each item in their list; given that there is an edit button
+- An user can edit the description of each item in the list; given that there is an edit button
 
-- A user can mark an item as "done" or "not done", given that there is check box
-
+- An user can mark an item as "done" or "not done", given that there is check box
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- Color of background changes when hover over it
+
+
+- An user can remove all the items from the list; given that there is a clear items button
+
+- An user can save the list, given that there is a save list button
+
+- Color of background can change when hover over it
   
-- Color font changes when hover over it
-
-- Numeric order of list activities
-
+- Color font can change when hover over it
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- A user can change the order of the items; given that there is a drag and slide option
+- An user can change the order of the items; given that there is a drag and slide option
 
-- A user can retrieve any activity already removed; given that there is a history button which show all the elements removed  and another button to restore the selected removed activity
+- An user can retrieve any activity already removed; given that there is a history button which show all the elements removed  and another button to restore the selected removed activity
