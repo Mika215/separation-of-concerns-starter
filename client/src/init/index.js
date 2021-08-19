@@ -24,6 +24,10 @@ const addActivity = () => {
   addInput.value = '';
 };
 
+const deletedBtn = (btn) => {
+  btn.addEventListener
+}
+ 
 // adding my click event listener to the addButton
 /* const clickListener = */ addButton.addEventListener('click', addActivity);
 // i have commented out the declaration of my "key-Up-listener" because the linting test obliged me to read the variable for the second time.
