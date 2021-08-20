@@ -26,9 +26,8 @@ const addActivity = () => {
   // creating my delete button variable
   
 const delButton = liEl.querySelector('.delete'); // targeting the delete button
-const deleteActivity = (i) =>{
-    
-       i = 0;
+const deleteActivity = (i) =>{    
+      i = 0;
       let item = document.getElementsByTagName("li")[i];
       i++;
       item.parentNode.removeChild(item);
