@@ -22,6 +22,19 @@ const addActivity = () => {
   // setting the default value of the input form into an empty string
   // this enables us to clean the input form(only place holder) every time the user finish adding a single input.
   addInput.value = '';
+
+// JT MY CODE SNIPPET GOES FROM LINE 31 TO LINE 38
+
+  // ***************   EDIT BUTTON  ****************
+
+  // creating editButton variable 
+  const editButton = liEl.querySelector('.edit'); // creating the edit button on DOM
+  const editActivity = () => {
+  console.log('an activity was edited');
+}
+
+// adding my click event listener to the editButton 
+editButton.addEventListener('click',editActivity);
 };
 
 // adding my click event listener to the addButton
