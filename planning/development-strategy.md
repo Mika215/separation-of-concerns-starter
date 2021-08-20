@@ -23,10 +23,10 @@
 - `type: handlers`
 
 #### - A user can remove any item from their list, given that theres is a remove button
-- `type: components`
+- `delButton: liEL`
 - `type: css`
-- `type: logic`
-- `type: handlers`
+- `deleteActivity: i, item`
+- `deleteActivityHandler: delButton.addEventListener('click',deleteActivity)`
 
 #### - A user can edit the description of each item in their list; given that there is an edit button
 - `type: components`

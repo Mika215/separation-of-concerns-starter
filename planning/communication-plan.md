@@ -13,9 +13,9 @@
 
 |  day     |     Michael   |     Rosa      |    Jose Tomas |       Reinaldo  |
 |:--------:|:-------------:|:-------------:|:-------------:|:---------------:|
-|monday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|tuesday   |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|wednesday |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|thursday  |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|friday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|sunday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|monday    |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|tuesday   |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|wednesday |8-12am - 2-4 pm|00-00am - 14-22 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|thursday  |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|friday    |8-12am - 2-4 pm|00-00am - 13-15 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|sunday    |8-12am - 2-4 pm|00-00am - 12-17 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
