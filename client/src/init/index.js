@@ -22,12 +22,26 @@ const addActivity = () => {
   // setting the default value of the input form into an empty string
   // this enables us to clean the input form(only place holder) every time the user finish adding a single input.
   addInput.value = '';
+
+  // creating my delete button variable
+  
+const delButton = liEl.querySelector('.delete'); // targeting the delete button
+const deleteActivity = (i) =>{
+    
+       i = 0;
+      let item = document.getElementsByTagName("li")[i];
+      i++;
+      item.parentNode.removeChild(item);
+     console.log("delete button was executed"); // printing a simple message that the delet button is working 
+  }
+
+
+//adding my click event listener to the delete button
+const deleteActivityHandler = delButton.addEventListener('click',deleteActivity);  
+
+
 };
 
-const deletedBtn = (btn) => {
-  btn.addEventListener
-}
- 
 // adding my click event listener to the addButton
 /* const clickListener = */ addButton.addEventListener('click', addActivity);
 // i have commented out the declaration of my "key-Up-listener" because the linting test obliged me to read the variable for the second time.
@@ -39,3 +53,7 @@ const deletedBtn = (btn) => {
     // i have commented out the declaration of my "key-Up-listener" because the linting test obliged me to read the variable for the second time.
   }
 });
+
+
+
+
