@@ -24,21 +24,18 @@ const addActivity = () => {
   addInput.value = '';
 
   // creating my delete button variable
-  
-const delButton = liEl.querySelector('.delete'); // targeting the delete button
-const deleteActivity = (i) =>{    
-      i = 0;
-      let item = document.getElementsByTagName("li")[i];
-      i++;
-      item.parentNode.removeChild(item);
-     console.log("delete button was executed"); // printing a simple message that the delet button is working 
-  }
+  const delButton = liEl.querySelector('.delete'); // targeting the delete button
+  const deleteActivity = () => {
+    let i;
+    i = 0;
+    const item = document.getElementsByTagName('li')[i];
+    i++;
+    item.parentNode.removeChild(item);
+    // console.log('delete button was executed'); // printing a simple message that the delete button is working
+  };
 
-
-//adding my click event listener to the delete button
-const deleteActivityHandler = delButton.addEventListener('click',deleteActivity);  
-
-
+  // adding my click event listener to the delete button
+  delButton.addEventListener('click', deleteActivity);
 };
 
 // adding my click event listener to the addButton
@@ -52,7 +49,3 @@ const deleteActivityHandler = delButton.addEventListener('click',deleteActivity)
     // i have commented out the declaration of my "key-Up-listener" because the linting test obliged me to read the variable for the second time.
   }
 });
-
-
-
-
