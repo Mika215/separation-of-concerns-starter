@@ -13,8 +13,8 @@ const addActivity = () => {
   // concatenated with the user input value which is represented by addInput.value
   liEl.innerHTML = `<div class="button-container">
     <input class="check-box" type="checkbox">${addInput.value}
-          <button class="edit"><i class="fa fa-pencil" style="font-size:12px;color:rgb(101, 192, 49)"></i></button>
-          <button class="delete"><i class="fa fa-trash-o" style="font-size:12px;color:red"></i></button>
+          <button class="edit"><i class="fa fa-pencil" style="font-size:30px;color: #000000"></i></button>
+          <button class="delete"><i class="fa fa-trash-o" style="font-size:30px;color:#000000"></i></button>
     </div>`;
 
   olEl.appendChild(liEl); // annexing the liEl inside the ordered list element
