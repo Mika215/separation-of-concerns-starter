@@ -1,30 +1,4 @@
-# Week 2
-## Communication Plan:
-
-|  day     |       Slack   |   Zoom Call      |
-|:--------:|:-------------:|:----------------:|
-|monday    |Anytime        |non specified time            |
-|tuesday   |Anytime        |non specified time|
-|wednesday |Anytime        |non specified time              |
-|thursday  |Anytime        |non specified time|
-|friday    |Anytime        |non specified time|
-|sunday    |Anytime        |non specified time|
-
-### Availability of the members of the group:     
-
-|  day     |     Michael   |     Rosa      |    Jose Tomas |       Reinaldo  |
-|:--------:|:-------------:|:-------------:|:-------------:|:---------------:|
-|monday    |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|tuesday   |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|wednesday |8-12am - 2-4 pm|00-00am - 14-22 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|thursday  |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|friday    |8-12am - 2-4 pm|00-00am - 13-15 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|sunday    |8-12am - 2-4 pm|00-00am - 12-17 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-
-***********
-
-# Week 1
-## Communication Plan:
+# Communication Plan:
 
 |  day     |       Slack   |   Zoom Call      |
 |:--------:|:-------------:|:----------------:|
@@ -39,9 +13,9 @@
 
 |  day     |     Michael   |     Rosa      |    Jose Tomas |       Reinaldo  |
 |:--------:|:-------------:|:-------------:|:-------------:|:---------------:|
-|monday    |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|tuesday   |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|wednesday |8-12am - 2-4 pm|00-00am - 14-22 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|thursday  |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|friday    |8-12am - 2-4 pm|00-00am - 13-15 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|sunday    |8-12am - 2-4 pm|00-00am - 12-17 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|monday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|tuesday   |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|wednesday |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|thursday  |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|friday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|sunday    |8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
