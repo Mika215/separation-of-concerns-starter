@@ -3,9 +3,9 @@
 
 |  day     |       Slack   |   Zoom Call      |
 |:--------:|:-------------:|:----------------:|
-|monday    |Anytime        |non specified time            |
+|monday    |Anytime        |non specified time|
 |tuesday   |Anytime        |non specified time|
-|wednesday |Anytime        |non specified time              |
+|wednesday |Anytime        |non specified time|
 |thursday  |Anytime        |non specified time|
 |friday    |Anytime        |non specified time|
 |sunday    |Anytime        |non specified time|
