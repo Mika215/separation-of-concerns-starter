@@ -13,7 +13,8 @@ const addActivity = () => {
   // concatenated with the user input value which is represented by addInput.value
   liEl.innerHTML = `<div class="button-container">
     <input class="check-box" type="checkbox">${addInput.value}
-          <button class="edit"><i class="fa fa-pencil" style="font-size:12px;color:rgb(101, 192, 49)"></i></button>
+          <button class="edit"><i class="fa fa-pencil" style="font-size:30px;color: #000000"></i></button>
+          <button class="delete"><i class="fa fa-trash-o" style="font-size:30px;color:#000000"></i></button>
     </div>`;
 
   olEl.appendChild(liEl); // annexing the liEl inside the ordered list element
@@ -21,20 +22,6 @@ const addActivity = () => {
   // setting the default value of the input form into an empty string
   // this enables us to clean the input form(only place holder) every time the user finish adding a single input.
   addInput.value = '';
-
-};
-
-const checkBtn = document.createElement('button');
-checkBtn.innerHTML = '<i class= check-btn></i>';
-checkBtn.classList.add('check-mark-complete');
-divList.appendChild(checkBtn);
-
-const deleteBtn = document.createElement('button');
-deleteBtn.innerHTML = '<i  class= fa fa-trash-o></i>';
-deleteBtn.classList.add('delete-btn');
-divList.appendChild(deleteBtn);
-
-
 
   // creating my delete button variable
   const delButton = liEl.querySelector('.delete'); // targeting the delete button
@@ -49,6 +36,8 @@ divList.appendChild(deleteBtn);
 
   // adding my click event listener to the delete button
   delButton.addEventListener('click', deleteActivity);
+};
+
 // adding my click event listener to the addButton
 /* const clickListener = */ addButton.addEventListener('click', addActivity);
 // i have commented out the declaration of my "key-Up-listener" because the linting test obliged me to read the variable for the second time.
