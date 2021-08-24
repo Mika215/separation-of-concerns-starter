@@ -56,7 +56,7 @@ addInput.addEventListener('keyup', (event) => {
 //   const deleteActivity = () => {
 //     let i;
 //     i = 0;
-//     const item = document.getElementsByTagName("li")[i];
+//     const item = document.getElementsByTagName(li")[i];
 //     i++;
 //     item.parentNode.removeChild(item);
 //     // console.log('delete button was executed'); // printing a simple message that the delete button is working
