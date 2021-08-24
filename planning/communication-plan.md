@@ -13,9 +13,10 @@
 
 |  day     |     Michael   |     Rosa      |    Jose Tomas |       Reinaldo  |
 |:--------:|:-------------:|:-------------:|:-------------:|:---------------:|
-|monday    |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|tuesday   |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|wednesday |8-12am - 2-4 pm|00-00am - 14-22 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|thursday  |8-12am - 2-4 pm|00-00am - 00-00pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|friday    |8-12am - 2-4 pm|00-00am - 13-15 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
-|sunday    |8-12am - 2-4 pm|00-00am - 12-17 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Monday    |8-12am - 2-4 pm|20:00 pm - 1:00 am|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Tuesday   |8-12am - 2-4 pm|22:00 pm - 00:00 am|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Wednesday |8-12am - 2-4 pm|20:00 pm - 00:00 am|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Thursday  |8-12am - 2-4 pm|20:00 pm - 1:00 am|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Friday    |8-12am - 2-4 pm|00:00 pm - 0:00 |8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Saturday    |8-12am - 2-4 pm|19:00 pm - 23:00 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
+|Sunday    |8-12am - 2-4 pm|12:00 pm - 22:00 pm|8-12am - 2-4 pm|8-12am - 2-4 pm  |
