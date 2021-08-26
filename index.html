@@ -15,18 +15,24 @@
   
   <body>
     <div class="main-container"> 
-      <div class="title">
-        <h1><span class="styling">To DO </span>List</h1>
-      </div>
-      <div class="error"></div> 
+      <h1>To Do List</h1>
       <div class="add-item">
-        <input type="text" id="todo-input" placeholder="enter activity ... " />
-        <button class="todo-button">+</button>
+          <input maxlength= 20 type="text" id="todo-input" placeholder="enter activity ... " />
+          <button id="todo-button">+</button>
       </div>
-      <div class="todo-container">
-        <ol id="item-list" start="1"></ol>
+      <div>
+          <ol id="ordered-list">
+              <li class="activity-list">
+                  <div class="activity-container">
+                      <input class="check-box" type="checkbox" name="check-box">
+                      <input class="activity-input" type="text" maxlength= 20 name="activity-input">
+                      <button class="edit-btn"><img src="client/public/edit-button.png" height="20px" width="20px"></button>
+                      <button class="delete-btn"><img src="client/public/delete-button.png" height="20px" width="20px"></button>  
+                  </div>                
+              </li>
+          </ol>
       </div>
-    </div>
+  </div>
     <script type="module" src="./client/src/init/index.js"></script>
   </body>
 </html>

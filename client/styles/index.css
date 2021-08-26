@@ -1,92 +1,118 @@
 @import url('./other-file.css');
 
+@import url('./other-file.css');
+
 body {
-display: flex;
-justify-content: center;
-background: black;
-background-size: auto;
-box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background: #000000;
+  background-size: auto;
+  box-sizing: border-box;
 }
 
 .main-container {
-position: relative;
-top: 63px;
-width: 1137px;
-background: #C4C4C4;
-border-radius: 10px;
-
+  margin-top: 70px;
+  width: 450px;
+  background: #a0a0a0;
+  border-radius: 10px;
 }
 
 h1 {
-left: 50%;
-font-family: Salsa;
-font-style: normal;
-font-weight: normal;
-font-size: 90px;
-line-height: 88px;
-text-align: center;
-text-decoration-line: underline;
-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
 }
 
-.add-item {
-display: flex;
-justify-content: center;
+.add-item { 
+  display: flex;
+  justify-content: center;
 }
 
-#todo-input{
-height: 50px;
-width: 80%;
-border-radius: 15px;
-background: #FFFFFF;
-border: 4px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 55px;
-
+#todo-input {
+  height: 30px;
+  width: 67%;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #6b6b6b;
+  border-radius: 55px 0px 0px 55px;
+  font-size: 14px;
+  color: #000000;
+  padding-left: 25px;
+  margin-bottom: 20px;
 }
 
-.todo-button{
-height: 50px;
-width: 50px;
-font-size: 35px;
-position: relative;
-left:-22px;
-background: #ACAAAA;
-border: 4px solid black;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px black(0, 0, 0, 0.25);
-border-radius: 0px 55px 55px 0px;
-color: white;
-
+#todo-button {
+  height: 26px;
+  width: 30px;
+  font-size: 25px;
+  background: #2169b6;
+  border-radius: 0px 55px 55px 0px;
+  box-sizing: content-box;
+  box-shadow: 0px 4px 4px #555555;
+  color: #ffffff;
+  margin-left: 3px;
+  outline
 }
 
-.todo-container{
-display: flex;
-justify-content: center;
+#todo-button :focus{
+  outline:none;
+} 
+
+/* ****************   CSS TODO LIST DYNAMIC   ****************** */
+
+li {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: bottom;
 }
 
-#item-list{
-display:flex;
-flex-direction: column;
-align-items:center;
-position: relative;
-justify-content: space-around;
-width: 80%;
-font-size: 36px;
+.activity-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 370px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 7px;
 }
 
-ol{
-    position: relative;
-    left: -2%;
+.check-box {
+  height: 18px;
+  width: 18px;
+  padding-right: 30px;
+  margin-top: 8px;
+  box-shadow: 0px 4px 4px #6b6b6b;
 }
 
-li{
-    position: relative;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+.activity-input {
+  height: 30px;
+  width: 70%;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid #d0d0d0;
+  box-shadow: 0px 4px 4px #6b6b6b;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 55px 55px 55px 55px;
+  margin-bottom: 7px;
+  padding-left: 25px;
+}
+
+.delete-btn, .edit-btn{
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #ffffff;
+  box-shadow: 0px 4px 4px #6b6b6b;
+  background-color: #ffffff;
+  padding-left: 2px;
+  margin-top: 4px;
+}
+
+#todo-input:focus,
+.activity-input:focus {
+  outline: none;
 }
