@@ -64,7 +64,7 @@ color: white;
 
 .todo-container{
 display: flex;
-
+justify-content: center;
 }
 
 #item-list{
