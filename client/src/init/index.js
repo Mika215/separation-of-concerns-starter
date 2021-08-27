@@ -28,11 +28,12 @@ const addActivity = () => {
     const olEl = divList.querySelector('#item-list'); // targeting the olElement (which has an #item-list ID)from the DivList.
     const liEl = document.createElement('li'); // creating an li Element
 
-    liEl.innerHTML = `<div class="button-container">
-    <input class="check-box" type="checkbox">${addInput.value}
-          <button class="edit"><i class="fa fa-pencil" style="font-size:30px;color: #000000"></i></button>
-          <button class="delete"><i class="fa fa-trash-o" style="font-size:30px;color:#000000"></i></button>
-    </div>`;
+    liEl.innerHTML = `<div class="input-container">
+    <input class="check-box" type="checkbox">${addInput.value} </div>
+    <div class="button-container">
+    <button class="edit"><i class="fa fa-pencil" style="font-size:30px;color: #000000"></i></button>
+    <button class="delete"><i class="fa fa-trash-o" style="font-size:30px;color:#000000"></i></button>
+    </div>`; 
 
     olEl.appendChild(liEl);
 
