@@ -33,7 +33,7 @@ const addActivity = () => {
     <div class="button-container">
     <button class="edit"><i class="fa fa-pencil" style="font-size:30px;color: #000000"></i></button>
     <button class="delete"><i class="fa fa-trash-o" style="font-size:30px;color:#000000"></i></button>
-    </div>`; 
+    </div>`;
 
     olEl.appendChild(liEl);
 
@@ -52,7 +52,19 @@ addInput.addEventListener('keyup', (event) => {
   }
 });
 
-//   // creating my delete button variable
+//   *************   BERMARTE'S CODE    ***************
+document.querySelector('html').addEventListener('click', (e) => {
+  if (target.classList.contains('fa-trash-o') || e.target.classList.contains('delete')) {
+    const txt = e.target.parentNode.parentNode.innerText;
+    const listItems = document.querySelectorAll('#item-list li');
+    for (let i = 0; i < listItems.length; i++) {
+    if (listItems[i].innerText == txt) {
+        document.querySelector('#item-list').removeChild(listItems[i]);
+  }
+    }
+    }
+
+//   *************   ROSA'S CODE    ***************
 //   const delButton = liEl.querySelector('.delete'); // targeting the delete button
 //   const deleteActivity = () => {
 //     let i;
@@ -63,5 +75,5 @@ addInput.addEventListener('keyup', (event) => {
 //     // console.log('delete button was executed'); // printing a simple message that the delete button is working
 //   };
 
-//  // adding my click event listener to the delete button
+//  adding click event listener to the delete button
 //  delButton.addEventListener('click', deleteActivity)
