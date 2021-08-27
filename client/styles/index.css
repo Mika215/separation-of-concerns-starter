@@ -3,7 +3,7 @@
 body {
   display: flex;
   justify-content: center;
-  background: #000000;
+  background: #797979;
   background-size: auto;
   box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ body {
 .main-container {
   margin-top: 70px;
   width: 450px;
-  background: #a0a0a0;
+  background: #b9b9b9;
   border-radius: 10px;
 }
 
@@ -54,6 +54,13 @@ h1 {
 }
 
 /* ****************   CSS TODO LIST DYNAMIC   ****************** */
+
+.activities-list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #363636;
+}
+
 
 .activity-container {
   display: flex;
