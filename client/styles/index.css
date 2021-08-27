@@ -102,6 +102,7 @@ li{
     border-color: black;
     border-radius: 10px;
     counter-increment: li; /* Inspiration --> https://jsfiddle.net/dorapen/7rdb096t/*/
+    
 }
 
     
@@ -110,19 +111,23 @@ li{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 70%;
- 
+    width: 80%;
 }
+
+.check-box{
+    padding-right: 400px;
+}
+
 
 .button-container{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 30%;
+    width: 15%;
     justify-content: space-around;
 }
 
-li:before {
+li::before {
 	content: counter(li); /*Use the counter as content --> Inspiration: https://jsfiddle.net/dorapen/7rdb096t/*/ 
 }
 
