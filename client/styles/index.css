@@ -26,46 +26,39 @@ h1 {
 .add-item { 
   display: flex;
   justify-content: center;
-  align-items: top;
+  align-items: center;
 }
 
 #todo-input {
   height: 30px;
-  width: 67%;
+  width: 65%;
   background: #ffffff;
   border: 1px solid #d0d0d0;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px #6b6b6b;
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px;
   font-size: 14px;
   color: #000000;
   padding-left: 25px;
-  margin-bottom: 20px;
+  margin-right: 5px;
 }
 
 #todo-button {
-  height: 24px;
-  width: 30px;
-  font-size: 25px;
-  background: #2169b6;
-  border-radius: 0px 55px 55px 0px;
-  box-sizing: content-box;
-  box-shadow: 0px 4px 4px #555555;
-  color: #ffffff;
-  margin-left: 3px;
-  outline
+  height: 35px;
+  width: 35px;
+  border-radius: 55px;
+  align-items: center;
+  padding-left: 1px;
+  background-color: darkblue;
+  
 }
-
-#todo-button :focus{
-  outline:none;
-} 
 
 /* ****************   CSS TODO LIST DYNAMIC   ****************** */
 
 .activity-container {
   display: flex;
   justify-content: space-evenly;
-  width: 370px;
+  width: 360px;
   font-size: 14px;
   padding-top: 7px;
 }
