@@ -53,16 +53,16 @@ addInput.addEventListener('keyup', (event) => {
 });
 
 //   *************   BERMARTE'S CODE    ***************
-document.querySelector('html').addEventListener('click', (e) => {
-  if (target.classList.contains('fa-trash-o') || e.target.classList.contains('delete')) {
-    const txt = e.target.parentNode.parentNode.innerText;
-    const listItems = document.querySelectorAll('#item-list li');
-    for (let i = 0; i < listItems.length; i++) {
-    if (listItems[i].innerText == txt) {
-        document.querySelector('#item-list').removeChild(listItems[i]);
-  }
-    }
-    }
+// document.querySelector('html').addEventListener('click', (e) => {
+//   if (target.classList.contains('fa-trash-o') || e.target.classList.contains('delete')) {
+//     const txt = e.target.parentNode.parentNode.innerText;
+//     const listItems = document.querySelectorAll('#item-list li');
+//     for (let i = 0; i < listItems.length; i++) {
+//     if (listItems[i].innerText == txt) {
+//         document.querySelector('#item-list').removeChild(listItems[i]);
+//   }
+//     }
+//     }
 
 //   *************   ROSA'S CODE    ***************
 //   const delButton = liEl.querySelector('.delete'); // targeting the delete button
