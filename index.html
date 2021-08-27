@@ -17,12 +17,28 @@
     <div class="main-container"> 
       <h1>To Do List</h1>
       <div class="add-item">
-          <input maxlength= 20 type="text" id="todo-input" placeholder="enter activity ... " />
+          <input maxlength= 25 type="text" id="todo-input" placeholder="enter activity ... " />
           <button id="todo-button">+</button>
       </div>
       <div>
           <ol id="ordered-list">
-              <li class="activity-list">
+              <li class="activities-list">
+                  <div class="activity-container">
+                      <input class="check-box" type="checkbox" name="check-box">
+                      <input class="activity-input" type="text" maxlength= 25 name="activity-input">
+                      <button class="edit-btn"><img src="client/public/edit-button.png" height="20px" width="20px"></button>
+                      <button class="delete-btn"><img src="client/public/delete-button.png" height="20px" width="20px"></button>  
+                  </div>                
+              </li>
+              <li class="activities-list">
+                  <div class="activity-container">
+                      <input class="check-box" type="checkbox" name="check-box">
+                      <input class="activity-input" type="text" maxlength= 20 name="activity-input">
+                      <button class="edit-btn"><img src="client/public/edit-button.png" height="20px" width="20px"></button>
+                      <button class="delete-btn"><img src="client/public/delete-button.png" height="20px" width="20px"></button>  
+                  </div>                
+              </li>
+              <li class="activities-list">
                   <div class="activity-container">
                       <input class="check-box" type="checkbox" name="check-box">
                       <input class="activity-input" type="text" maxlength= 20 name="activity-input">
