@@ -4,8 +4,10 @@ const divList = document.querySelector('.todo-container');
 const addInput = document.querySelector('#todo-input'); // input from user
 const addButton = document.querySelector('.todo-button'); // add to do list button
 const errDiv = document.querySelector('.error'); // adding the error div on DOM
+const editButton = document.querySelector('.edit');
 
-// *** declaring my inputValidator function ***
+// ***************************************   HANDLERS   *****************************************
+// *** declaring inputValidator function ***
 const inputValidator = () => {
   const message = [];
   message.push('*You did not enter something.\nplease enter an activity!');
@@ -14,8 +16,7 @@ const inputValidator = () => {
   errorElement.style.color = 'red'; // assigning a red color to the errorElement
   errDiv.appendChild(errorElement);
 };
-
-//  *** declaring my addActivity function ***
+//  *** declaring addActivity function ***
 const addActivity = () => {
   if (
     addInput.value === ' ' ||
@@ -23,7 +24,7 @@ const addActivity = () => {
     addInput.value === '  ' ||
     addInput.value === null
   ) {
-    inputValidator(); // calling back my input validator function to alert the given reminder message
+    inputValidator(); // calling back the input validator function to alert the given reminder message
   } else {
     const olEl = divList.querySelector('#item-list'); // targeting the olElement (which has an #item-list ID)from the DivList.
     const liEl = document.createElement('li'); // creating an li Element
@@ -41,16 +42,26 @@ const addActivity = () => {
   }
 };
 
-// *** adding Listeners ***
+// ***   declaring editActivity function   ***
+const editActivity = () => {
+  alert('edit button is working');
+};
 
-// adding my click event listener to the addButton
+// ***************************************   LISTENERS   *****************************************
+
+// click event listener to addButton
 addButton.addEventListener('click', addActivity);
-// adding my enter key event listener
+
+// enter key event listener
 addInput.addEventListener('keyup', (event) => {
   if (event.which === 13) {
     addActivity();
   }
 });
+
+// click event listener to editButton
+editButton.addEventListener('click', editActivity);
+
 
 //   *************   BERMARTE'S CODE    ***************
 // document.querySelector('html').addEventListener('click', (e) => {
