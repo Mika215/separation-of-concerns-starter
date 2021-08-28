@@ -1,5 +1,4 @@
-// declaring main variables
-
+import '../listeners/delete-btn.js';
 const divList = document.querySelector('.todo-container');
 const addInput = document.querySelector('#todo-input'); // input from user
 const addButton = document.querySelector('.todo-button'); // add to do list button
@@ -51,16 +50,3 @@ addInput.addEventListener('keyup', (event) => {
   }
 });
 
-//   // creating my delete button variable
-//   const delButton = liEl.querySelector('.delete'); // targeting the delete button
-//   const deleteActivity = () => {
-//     let i;
-//     i = 0;
-//     const item = document.getElementsByTagName(li")[i];
-//     i++;
-//     item.parentNode.removeChild(item);
-//     // console.log('delete button was executed'); // printing a simple message that the delete button is working
-//   };
-
-//  // adding my click event listener to the delete button
-//  delButton.addEventListener('click', deleteActivity)
