@@ -1,8 +1,8 @@
-export const deleteActivityHandler = () => {
+export const deleteActivityHandler = (event) => {
 // console.log('hello');
     
-        if (deleteActivityHandler.target.classList.contains('fa-trash-o') || deleteActivityHandler.target.classList.contains('delete')) {
-          const txt = deleteActivityHandler.target.parentNode.parentNode.innerText;
+        if (event.target.classList.contains('fa-trash-o') || event.target.classList.contains('delete')) {
+          const txt = event.target.parentNode.parentNode.innerText;
           const listItems = document.querySelectorAll('#item-list li');
           for (var i = 0; i < listItems.length; i++) {
             if (listItems[i].innerText == txt) {
