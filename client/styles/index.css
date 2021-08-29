@@ -149,8 +149,7 @@ li::before {
 }
 
 .fa-trash-o{
-    transition: all 0.2s ease-in-out;
-}
+    pointer-events: none;}
 
 .fa-trash-o:hover{
     transform: rotate(-20deg);
