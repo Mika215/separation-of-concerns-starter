@@ -50,4 +50,3 @@ addInput.addEventListener('keyup', (event) => {
     addActivity();
   }
 });
-
